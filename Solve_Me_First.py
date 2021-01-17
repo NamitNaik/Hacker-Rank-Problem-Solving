@@ -1,7 +1,7 @@
 
 
-def solveMeFirst(x, y):
-    return x + y
+def solveMeFirst(a, b):
+    return a + b
 
 
 num1 = int(input())
