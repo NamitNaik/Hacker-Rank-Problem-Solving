@@ -6,11 +6,15 @@ import sys
 #
 # Complete the simpleArraySum function below.
 #
+
+
 def simpleArraySum(ar):
     sum = 0
     for i in ar:
         sum = sum + int(i)
-    return sum        
+    return sum
+
+
 if __name__ == '__main__':
     fptr = open(os.environ['OUTPUT_PATH'], 'w')
 
